@@ -54,7 +54,9 @@
     "test:coverage": "jest --coverage",
     "clean": "rm -rf lib",
     "build": "bob build",
-    "prepare": "bob build"
+    "prepare": "bob build",
+    "preversion": "npm run lint && npm run typecheck && npm test",
+    "verify": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "peerDependencies": {
     "react": ">=19.0.0",
