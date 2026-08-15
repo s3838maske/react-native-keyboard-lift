@@ -29,9 +29,16 @@
     // The example imports the library by its published name. Mapping it to the
     // source means `tsc --noEmit` fails if the example ever drifts from the
     // real public API.
+    //
+    // React and React Native are pinned to this package's copies as well:
+    // once `example/node_modules` exists, two copies of `@types/react` are
+    // visible and TypeScript treats their identical types as unrelated.
     "baseUrl": ".",
     "paths": {
-      "react-native-smart-keyboard": ["./src/index.ts"]
+      "react-native-smart-keyboard": ["./src/index.ts"],
+      "react": ["./node_modules/@types/react"],
+      "react-native": ["./node_modules/react-native"],
+      "react-native-safe-area-context": ["./node_modules/react-native-safe-area-context"]
     }
   },
   "include": ["src", "example/App.tsx", "example/src"],
