@@ -17,7 +17,7 @@ function Menu({ onSelect }: { onSelect: (screen: Screen) => void }) {
       style={styles.screen}
       contentContainerStyle={{ padding: 20, paddingTop: insets.top + 20 }}
     >
-      <Text style={styles.heading}>react-native-smart-keyboard</Text>
+      <Text style={styles.heading}>react-native-keyboard-lift</Text>
       <Text style={{ color: colors.muted, marginBottom: 24 }}>
         Running on {Platform.OS}. Each screen exercises a different keyboard
         situation — work through them on a real device.

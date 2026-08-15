@@ -2,7 +2,7 @@ import { Text, View } from 'react-native';
 import {
   KeyboardAwareFooter,
   KeyboardAwareScrollView,
-} from 'react-native-smart-keyboard';
+} from 'react-native-keyboard-lift';
 
 import { Button, Field, Note, styles } from '../ui';
 

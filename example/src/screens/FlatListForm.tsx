@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 import { Text, View } from 'react-native';
-import { KeyboardAwareFlatList } from 'react-native-smart-keyboard';
+import { KeyboardAwareFlatList } from 'react-native-keyboard-lift';
 
 import { Field, Note, styles } from '../ui';
 

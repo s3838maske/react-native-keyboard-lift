@@ -1,7 +1,7 @@
-# react-native-smart-keyboard
+# react-native-keyboard-lift
 
 [![CI](https://github.com/s3838maske/react-native-smart-keyboard/actions/workflows/ci.yml/badge.svg)](https://github.com/s3838maske/react-native-smart-keyboard/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/react-native-smart-keyboard.svg)](https://www.npmjs.com/package/react-native-smart-keyboard)
+[![npm version](https://img.shields.io/npm/v/react-native-keyboard-lift.svg)](https://www.npmjs.com/package/react-native-keyboard-lift)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20Android-lightgrey.svg)](#platform-setup)
 [![runtime dependencies](https://img.shields.io/badge/runtime%20deps-0-brightgreen.svg)](./package.json)
@@ -78,11 +78,11 @@ behaviour without adding native code, a Reanimated peer, or a prebuild step.
 ## Installation
 
 ```bash
-npm install react-native-smart-keyboard
+npm install react-native-keyboard-lift
 ```
 
 ```bash
-yarn add react-native-smart-keyboard
+yarn add react-native-keyboard-lift
 ```
 
 No linking, no pods, no config plugin.
@@ -120,7 +120,7 @@ export default function App() {
 ### A form that scrolls
 
 ```tsx
-import { KeyboardAwareScrollView } from 'react-native-smart-keyboard';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-lift';
 
 function ContactForm() {
   return (
@@ -136,7 +136,7 @@ function ContactForm() {
 ### A form that does not scroll
 
 ```tsx
-import { KeyboardAvoider } from 'react-native-smart-keyboard';
+import { KeyboardAvoider } from 'react-native-keyboard-lift';
 
 function LoginScreen() {
   return (
@@ -155,7 +155,7 @@ function LoginScreen() {
 import {
   KeyboardAwareFooter,
   KeyboardAwareScrollView,
-} from 'react-native-smart-keyboard';
+} from 'react-native-keyboard-lift';
 
 function CheckoutScreen() {
   return (

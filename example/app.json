@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "Smart Keyboard Example",
-    "slug": "react-native-smart-keyboard-example",
-    "version": "0.1.0",
+    "name": "Keyboard Lift Example",
+    "slug": "react-native-keyboard-lift-example",
+    "version": "1.0.0",
     "orientation": "default",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.smartkeyboard"
+      "bundleIdentifier": "com.example.keyboardlift"
     },
     "android": {
-      "package": "com.example.smartkeyboard",
+      "package": "com.example.keyboardlift",
       "edgeToEdgeEnabled": true,
       "softwareKeyboardLayoutMode": "resize"
     }

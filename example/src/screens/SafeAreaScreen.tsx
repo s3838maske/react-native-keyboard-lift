@@ -1,6 +1,6 @@
 import { Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { KeyboardAwareScrollView, useKeyboard } from 'react-native-smart-keyboard';
+import { KeyboardAwareScrollView, useKeyboard } from 'react-native-keyboard-lift';
 
 import { Field, Note, colors, styles } from '../ui';
 

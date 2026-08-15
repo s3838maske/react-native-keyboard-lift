@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Modal, Text, View } from 'react-native';
-import { KeyboardAwareScrollView } from 'react-native-smart-keyboard';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-lift';
 
 import { Button, Field, Note, colors, styles } from '../ui';
 

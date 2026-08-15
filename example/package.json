@@ -1,5 +1,5 @@
 {
-  "name": "react-native-smart-keyboard-example",
+  "name": "react-native-keyboard-lift-example",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
@@ -15,7 +15,7 @@
     "react": "19.2.3",
     "react-native": "0.85.3",
     "react-native-safe-area-context": "~5.9.0",
-    "react-native-smart-keyboard": "file:.."
+    "react-native-keyboard-lift": "file:.."
   },
   "devDependencies": {
     "@types/react": "^19.1.1",

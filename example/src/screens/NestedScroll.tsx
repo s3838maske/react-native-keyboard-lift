@@ -1,5 +1,5 @@
 import { ScrollView, Text, View } from 'react-native';
-import { KeyboardAwareScrollView } from 'react-native-smart-keyboard';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-lift';
 
 import { Field, Note, colors, styles } from '../ui';
 

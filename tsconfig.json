@@ -35,7 +35,7 @@
     // visible and TypeScript treats their identical types as unrelated.
     "baseUrl": ".",
     "paths": {
-      "react-native-smart-keyboard": ["./src/index.ts"],
+      "react-native-keyboard-lift": ["./src/index.ts"],
       "react": ["./node_modules/@types/react"],
       "react-native": ["./node_modules/react-native"],
       "react-native-safe-area-context": ["./node_modules/react-native-safe-area-context"]

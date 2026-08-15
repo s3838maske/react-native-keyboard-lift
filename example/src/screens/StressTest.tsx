@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react';
 import type { TextInput} from 'react-native';
 import { Text, View } from 'react-native';
-import { KeyboardAwareScrollView } from 'react-native-smart-keyboard';
-import type { ScrollToInputInfo } from 'react-native-smart-keyboard';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-lift';
+import type { ScrollToInputInfo } from 'react-native-keyboard-lift';
 
 import { Button, Field, Note, colors, styles } from '../ui';
 

@@ -1,5 +1,5 @@
 /**
- * react-native-smart-keyboard
+ * react-native-keyboard-lift
  *
  * Zero-configuration keyboard management for React Native. The public surface
  * is deliberately small — four components and two hooks. Everything else is an

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-smart-keyboard",
+  "name": "react-native-keyboard-lift",
   "version": "1.0.0",
   "description": "Zero-configuration React Native keyboard management that keeps the focused input visible on iOS and Android. No native code, no runtime dependencies.",
   "keywords": [

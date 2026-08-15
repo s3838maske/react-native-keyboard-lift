@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native';
-import { KeyboardAvoider } from 'react-native-smart-keyboard';
+import { KeyboardAvoider } from 'react-native-keyboard-lift';
 
 import { Button, Field, Note, styles } from '../ui';
 

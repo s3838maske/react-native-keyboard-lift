@@ -16,7 +16,7 @@ export function warnOnce(key: string, message: string): void {
     return;
   }
   warned.add(key);
-  console.warn(`[react-native-smart-keyboard] ${message}`);
+  console.warn(`[react-native-keyboard-lift] ${message}`);
 }
 
 /** Test-only: forget which warnings have already been emitted. */
