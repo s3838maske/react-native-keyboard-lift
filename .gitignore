@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+
+# build output
+lib/
+coverage/
+*.tsbuildinfo
+
+# packaged tarballs
+*.tgz
+
+# native / tooling
+.gradle/
+build/
+Pods/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# editors & OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# expo / metro
+.expo/
+.metro-health-check*
