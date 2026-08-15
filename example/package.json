@@ -1,0 +1,22 @@
+{
+  "name": "react-native-smart-keyboard-example",
+  "version": "0.1.0",
+  "private": true,
+  "main": "App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "react": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-safe-area-context": "^5.9.0",
+    "react-native-smart-keyboard": "file:.."
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.1",
+    "typescript": "^5.9.3"
+  }
+}

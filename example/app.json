@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Smart Keyboard Example",
+    "slug": "react-native-smart-keyboard-example",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.smartkeyboard"
+    },
+    "android": {
+      "package": "com.example.smartkeyboard",
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "resize"
+    }
+  }
+}
