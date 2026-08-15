@@ -20,14 +20,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/react-native-smart-keyboard.git"
+    "url": "git+https://github.com/s3838maske/react-native-smart-keyboard.git"
   },
-  "homepage": "https://github.com/your-org/react-native-smart-keyboard#readme",
+  "homepage": "https://github.com/s3838maske/react-native-smart-keyboard#readme",
   "bugs": {
-    "url": "https://github.com/your-org/react-native-smart-keyboard/issues"
+    "url": "https://github.com/s3838maske/react-native-smart-keyboard/issues"
   },
   "license": "MIT",
-  "author": "",
+  "author": "shubham-maske",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/index.d.ts",

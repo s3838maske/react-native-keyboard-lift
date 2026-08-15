@@ -49,5 +49,5 @@ before any of its own logic runs:
 - iOS keyboards dragged past the bottom of the window during interactive
   dismissal continue to report occlusion as they leave.
 
-[Unreleased]: https://github.com/your-org/react-native-smart-keyboard/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/your-org/react-native-smart-keyboard/releases/tag/v0.1.0
+[Unreleased]: https://github.com/s3838maske/react-native-smart-keyboard/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/s3838maske/react-native-smart-keyboard/releases/tag/v0.1.0

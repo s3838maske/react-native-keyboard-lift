@@ -1,5 +1,11 @@
 # react-native-smart-keyboard
 
+[![CI](https://github.com/s3838maske/react-native-smart-keyboard/actions/workflows/ci.yml/badge.svg)](https://github.com/s3838maske/react-native-smart-keyboard/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/react-native-smart-keyboard.svg)](https://www.npmjs.com/package/react-native-smart-keyboard)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20Android-lightgrey.svg)](#platform-setup)
+[![runtime dependencies](https://img.shields.io/badge/runtime%20deps-0-brightgreen.svg)](./package.json)
+
 Zero-configuration keyboard management for React Native. Focused inputs stay
 visible, on both platforms, without native code and without a single runtime
 dependency.
@@ -531,6 +537,16 @@ The geometry is pure and heavily unit-tested — `src/core/normalize.ts` and
 `src/core/solver.ts` are the two files worth reading first. Behaviour changes
 there should come with a failing test.
 
+There is a ten-screen [example app](./example) covering every keyboard
+situation the library handles. A device pass through it is expected before any
+release.
+
+## Links
+
+- [Example app](./example) — ten screens, one per keyboard scenario
+- [Changelog](./CHANGELOG.md)
+- [Report an issue](https://github.com/s3838maske/react-native-smart-keyboard/issues)
+
 ## License
 
-MIT
+[MIT](./LICENSE) © Shubham Maske
