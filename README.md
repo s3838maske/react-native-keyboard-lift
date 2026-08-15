@@ -1,6 +1,6 @@
 # react-native-keyboard-lift
 
-[![CI](https://github.com/s3838maske/react-native-smart-keyboard/actions/workflows/ci.yml/badge.svg)](https://github.com/s3838maske/react-native-smart-keyboard/actions/workflows/ci.yml)
+[![CI](https://github.com/s3838maske/react-native-keyboard-lift/actions/workflows/ci.yml/badge.svg)](https://github.com/s3838maske/react-native-keyboard-lift/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/react-native-keyboard-lift.svg)](https://www.npmjs.com/package/react-native-keyboard-lift)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20Android-lightgrey.svg)](#platform-setup)
@@ -545,7 +545,7 @@ release.
 
 - [Example app](./example) — ten screens, one per keyboard scenario
 - [Changelog](./CHANGELOG.md)
-- [Report an issue](https://github.com/s3838maske/react-native-smart-keyboard/issues)
+- [Report an issue](https://github.com/s3838maske/react-native-keyboard-lift/issues)
 
 ## License
 

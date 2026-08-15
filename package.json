@@ -20,11 +20,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s3838maske/react-native-smart-keyboard.git"
+    "url": "git+https://github.com/s3838maske/react-native-keyboard-lift.git"
   },
-  "homepage": "https://github.com/s3838maske/react-native-smart-keyboard#readme",
+  "homepage": "https://github.com/s3838maske/react-native-keyboard-lift#readme",
   "bugs": {
-    "url": "https://github.com/s3838maske/react-native-smart-keyboard/issues"
+    "url": "https://github.com/s3838maske/react-native-keyboard-lift/issues"
   },
   "license": "MIT",
   "author": "shubham-maske",

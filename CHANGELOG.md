@@ -57,5 +57,5 @@ animation on Android, no detection of keyboard *height* changes on Android API
 30+, and no auto-scroll for `inverted` lists. Use
 `react-native-keyboard-controller` if you need the first of these.
 
-[Unreleased]: https://github.com/s3838maske/react-native-smart-keyboard/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/s3838maske/react-native-smart-keyboard/releases/tag/v1.0.0
+[Unreleased]: https://github.com/s3838maske/react-native-keyboard-lift/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/s3838maske/react-native-keyboard-lift/releases/tag/v1.0.0
