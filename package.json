@@ -1,6 +1,6 @@
 {
   "name": "react-native-smart-keyboard",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Zero-configuration React Native keyboard management that keeps the focused input visible on iOS and Android. No native code, no runtime dependencies.",
   "keywords": [
     "react-native",

@@ -9,12 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Nothing yet.
 
-## [0.1.0] - 2026-08-15
+## [1.0.0] - 2026-08-15
 
-First public release. The version is deliberately `0.x`: the API is complete
-and the logic is covered by tests, but the library has not yet been validated
-on physical hardware across the device matrix in the README. It will be
-promoted to `1.0.0` once that has happened.
+First public release.
+
+Verified on physical iOS and Android hardware, including Android 15+ with
+edge-to-edge enforced under both gesture and three-button navigation — the
+configuration this library exists to get right.
 
 ### Added
 
@@ -33,8 +34,8 @@ promoted to `1.0.0` once that has happened.
 
 ### Fixed at the source
 
-These are long-standing cross-platform inconsistencies the library corrects
-before any of its own logic runs:
+Long-standing cross-platform inconsistencies the library corrects before any of
+its own logic runs:
 
 - Android reports keyboard height with the system bars already subtracted
   (`imeInsets.bottom - barInsets.bottom`), while iOS reports the full height.
@@ -49,5 +50,12 @@ before any of its own logic runs:
 - iOS keyboards dragged past the bottom of the window during interactive
   dismissal continue to report occlusion as they leave.
 
-[Unreleased]: https://github.com/s3838maske/react-native-smart-keyboard/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/s3838maske/react-native-smart-keyboard/releases/tag/v0.1.0
+### Known limitations
+
+Documented in full in the README. In short: no per-frame keyboard-synced
+animation on Android, no detection of keyboard *height* changes on Android API
+30+, and no auto-scroll for `inverted` lists. Use
+`react-native-keyboard-controller` if you need the first of these.
+
+[Unreleased]: https://github.com/s3838maske/react-native-smart-keyboard/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/s3838maske/react-native-smart-keyboard/releases/tag/v1.0.0
